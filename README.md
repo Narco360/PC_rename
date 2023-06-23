@@ -11,4 +11,4 @@ If needed i also provided a script to test it to your local computer (its basica
 * [English local test](https://github.com/Narco360/PC_rename/code/en/LocalRename.ps1)
 * [test local français](https://github.com/Narco360/PC_rename/code/fr/LocalRename.ps1)
 
-### [GNU GENERAL PUBLIC LICENSE](https://github.com/Narco360/PC_rename/LICENSE)
+### [GNU GENERAL PUBLIC LICENSE](https://github.com/Narco360/PC_rename/blob/main/LICENSE)
