@@ -3,7 +3,6 @@ $Password = 'Password'
 $pass = ConvertTo-SecureString -AsPlainText $Password -Force
 $Cred = New-Object System.Management.Automation.PSCredential -ArgumentList $Username,$pass
 
-
 $add = Get-ADComputer -Filter * -Properties 'Name' -SearchBase 'OU=Utilisateurs,OU=OrdinateursUtilisateurs,DC="entreprise",DC=fr' | Select-Object Name <#variable add attribué a la liste des utilisateurs dans l'AD#>
 <# le "OU" correspond au chemin dans l'AD et le premier DC a par exemple le domaine "entreprise" et le deuxième DC pzr exemple "fr" #>
 Foreach ($Name in $add)     <#pour chaque nom de la liste éffectue ...#>
